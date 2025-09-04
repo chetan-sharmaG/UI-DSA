@@ -21,3 +21,7 @@ Array.prototype.myReduce = function (callbackFn, initialValue) {
 
 [1, 2, 3].myReduce((prev, curr) => prev + curr, 0); // 6
 [1, 2, 3].myReduce((prev, curr) => prev + curr, 4); // 10
+[['a',1],['b',2]].myReduce((acc, [key, value]) => {
+  acc[key] = value;
+  return acc;
+}, {});

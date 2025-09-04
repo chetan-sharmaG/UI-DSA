@@ -6,5 +6,5 @@ Array.prototype.myAt = function (index) {
   return this[pIndex];
 };
 
-const arr = [42, 79];
-console.log(arr.myAt(-3));
+const arr = [42,, 79];
+console.log(arr.myAt(-2));
