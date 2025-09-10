@@ -16,6 +16,7 @@ const john = {
     return this.age;
   },
 };
-
+const aa = john.getAge
+console.log(aa())
 const boundGetAge = john.getAge.MyBind(john);
 console.log(boundGetAge()); // 42
