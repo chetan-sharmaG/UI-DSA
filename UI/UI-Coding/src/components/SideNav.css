@@ -1,0 +1,32 @@
+.side-nav {
+  position: fixed;
+  right: 32px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.side-nav__line {
+  width: 3px;
+  height: 220px;
+  background: linear-gradient(to bottom, #1ec773 0%, #fff 100%);
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+.side-nav__label {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  color: #1ec773;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: 8px;
+  background: #181a1b;
+  padding: 4px 8px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #1ec77322;
+}

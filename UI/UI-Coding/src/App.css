@@ -7,7 +7,9 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+.lan{ 
+  background-image: url('hi.jpg');
+}
 .clock {
   display: block;
   flex-shrink: 0;
@@ -27,4 +29,13 @@ body {
   left: calc(var(--size) / 2);
   top: calc(var(--size) / 2);
   transform-origin: top center;
+}
+
+/* Landing Page Base Styles */
+.app-landing {
+  min-height: 100vh;
+  background: #181a1b;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  position: relative;
+  overflow-x: hidden;
 }

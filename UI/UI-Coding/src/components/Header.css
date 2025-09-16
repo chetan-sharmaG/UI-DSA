@@ -1,0 +1,65 @@
+.header {
+  width: 100%;
+  background: #181a1b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 48px;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.header__logo {
+  font-size: 1.7rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo .hashed {
+  color: #fff;
+}
+
+.header__logo .in {
+  color: #f9b233;
+  margin-left: 2px;
+}
+
+.header__logo .by {
+  color: #aaa;
+  font-size: 1rem;
+  margin: 0 4px;
+}
+
+.header__logo .deloitte {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.header__nav ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.header__nav a:hover {
+  color: #1ec773;
+}

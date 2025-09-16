@@ -1,0 +1,82 @@
+.hero-section {
+  min-height: 100vh;
+  background: #181a1b url('https://www.transparenttextures.com/patterns/cubes.png') repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 70px; /* for fixed header */
+  overflow: hidden;
+}
+
+.hero-bg-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(120deg, #181a1b 80%, #1ec77322 100%);
+  opacity: 0.95;
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  padding: 48px 24px 0 24px;
+}
+
+.hero-visual {
+  margin-bottom: 32px;
+}
+
+.hero-section h1 {
+  font-size: 2.7rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+  line-height: 1.2;
+}
+
+.hero-section .with {
+  font-weight: 400;
+  color: #fff;
+}
+
+.hero-section .product-mindset {
+  color: #1ec773;
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
+.hero-description {
+  font-size: 1.15rem;
+  color: #e0e0e0;
+  margin-bottom: 18px;
+  line-height: 1.7;
+}
+
+.hero-bold {
+  font-size: 1.18rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 28px;
+}
+
+.hero-cta {
+  background: #1ec773;
+  color: #181a1b;
+  border: none;
+  border-radius: 24px;
+  padding: 14px 36px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 2px 12px #1ec77344;
+  transition: background 0.2s, color 0.2s;
+}
+
+.hero-cta:hover {
+  background: #fff;
+  color: #1ec773;
+}
